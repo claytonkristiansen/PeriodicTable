@@ -10,7 +10,7 @@
     <Grid HorizontalAlignment="Center">
 
         <Canvas Margin="-550,0,0,0">
-            <Button Name="Hydrogen"     Content="H"   FontSize="40"       Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60"/>
+            <Button Name="Hydrogen"     Content="Hydrogen"          Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60"/>
             <Button Name="Helium"       Content="Helium"            Background="CornflowerBlue"              Click="Element_Click" HorizontalAlignment="Left" Margin="1030,10,0,0" VerticalAlignment="Top" Width="60" Height="60"/>
             <Button Name="Lithium"      Content="Lithium"           Background="Orange"                 Click="Element_Click" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Width="60" Height="60"/>
             <Button Name="Beryllium"    Content="Beryllium"         Background="Yellow"            Click="Element_Click" HorizontalAlignment="Left" Margin="70,70,0,0" VerticalAlignment="Top" Width="60" Height="60"/>
