@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace PeriodicTable
 {
@@ -19,11 +20,25 @@ namespace PeriodicTable
     /// </summary>
     public partial class Element : Window
     {
+        int atomicNumber;
+        String name;
+        String symbol;
+
         public Element(String atomicName)
         {
-            
             InitializeComponent();
             ElementName.Text = atomicName;
+
+            String localDirectory = Directory.GetCurrentDirectory();
+            localDirectory = localDirectory.Substring(0, localDirectory.Length - 24);
+            using (StreamReader reader = new StreamReader(localDirectory + "\\Assets\\elementlist.csv"))
+            {
+                String line0 = reader.ReadLine();
+                String line1 = reader.ReadLine();
+            }
+
+
+                elementWebBrowser.Navigate("https://en.wikipedia.org/wiki/" + atomicName);
         }
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
@@ -32,6 +47,11 @@ namespace PeriodicTable
             {
                 this.Close();
             }
+        }
+
+        private void ElementWebBrowser_Navigating(object sender, System.Windows.Navigation.NavigatingCancelEventArgs e)
+        {
+
         }
     }
 }

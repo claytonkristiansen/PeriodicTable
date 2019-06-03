@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="Element" Height="450" Width="800"
         KeyDown="Window_KeyDown">
-    <Grid>
-        <TextBox Name="ElementName" HorizontalAlignment="Left" Height="23" Margin="335,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderThickness="0"/>
-
+    <Grid Background="AliceBlue">
+        <TextBox Name="ElementName" HorizontalAlignment="Left" Height="23" Margin="65,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderThickness="0" Background="AliceBlue"/>
+        <WebBrowser Name="elementWebBrowser" Navigating="ElementWebBrowser_Navigating" Margin="250,0,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
     </Grid>
 </Window>
