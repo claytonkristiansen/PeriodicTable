@@ -55,13 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Element.xaml.cs">
-      <DependentUpon>Element.xaml</DependentUpon>
+    <Compile Include="Element.cs" />
+    <Compile Include="ElementWindow.xaml.cs">
+      <DependentUpon>ElementWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Window2.xaml.cs">
       <DependentUpon>Window2.xaml</DependentUpon>
     </Compile>
-    <Page Include="Element.xaml">
+    <Page Include="ElementWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

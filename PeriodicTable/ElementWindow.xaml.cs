@@ -18,27 +18,26 @@ namespace PeriodicTable
     /// <summary>
     /// Interaction logic for Element.xaml
     /// </summary>
-    public partial class Element : Window
+    public partial class ElementWindow : Window
     {
         int atomicNumber;
         String name;
         String symbol;
 
-        public Element(String atomicName)
+        public ElementWindow(Element element)
         {
             InitializeComponent();
-            ElementName.Text = atomicName;
+            ElementName.Text = element.elementName;
+            ElementSymbol.Text = element.symbol;
+            AtomicNumber.Text = "Atomic Number: " + element.atomicNumber.ToString();
+            AtomicWeight.Text = "Atomic Weight: " + element.atomicMass.ToString();
+
 
             String localDirectory = Directory.GetCurrentDirectory();
             localDirectory = localDirectory.Substring(0, localDirectory.Length - 24);
-            using (StreamReader reader = new StreamReader(localDirectory + "\\Assets\\elementlist.csv"))
-            {
-                String line0 = reader.ReadLine();
-                String line1 = reader.ReadLine();
-            }
 
 
-                elementWebBrowser.Navigate("https://en.wikipedia.org/wiki/" + atomicName);
+                elementWebBrowser.Navigate("https://en.wikipedia.org/wiki/" + element.elementName);
         }
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
