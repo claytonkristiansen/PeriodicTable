@@ -16,7 +16,7 @@
         <TextBox Name="ElementName"     HorizontalAlignment="Center" Height="20" Margin="0,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderThickness="0" Background="AliceBlue"/>
         <TextBox Name="ElementSymbol"   HorizontalAlignment="Center" Height="20" Margin="0,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderThickness="0" Background="AliceBlue"/>
         <TextBox Name="AtomicNumber"    HorizontalAlignment="Center" Height="20" Margin="0,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderThickness="0" Background="AliceBlue"/>
-        <TextBox Name="AtomicWeight"    HorizontalAlignment="Center" Height="20" Margin="0,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderThickness="0" Background="AliceBlue"/>
+        <TextBox Name="AtomicWeight"    HorizontalAlignment="Center" Height="20" Margin="0,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" BorderThickness="0" Background="AliceBlue"/>
 
         <WebBrowser Name="elementWebBrowser" Grid.Column="1" Navigating="ElementWebBrowser_Navigating" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.ColumnSpan="2"/>
 

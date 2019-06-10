@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
+using System.Diagnostics;
 
 namespace PeriodicTable
 {
@@ -120,6 +121,8 @@ namespace PeriodicTable
 
         private void Element_Click(object sender, RoutedEventArgs e)
         {
+            List<FrameworkElement> logicalElements = new List<FrameworkElement>();
+            GetLogicalElements(sender, logicalElements);
             Button button = sender as Button;
             for(int i = 0; i < elements.Count; i++)
             {
@@ -127,6 +130,23 @@ namespace PeriodicTable
                 {
                     OpenElementWindow(elements.ElementAt(i));
                 }
+            }
+        }
+
+        private void GetLogicalElements(object parent, List<FrameworkElement> logicalElements)
+        {
+            if (parent == null) return;
+
+            if (parent.GetType().IsSubclassOf(typeof(FrameworkElement)))
+                logicalElements.Add((FrameworkElement)parent);
+
+            DependencyObject doParent = parent as DependencyObject;
+
+            if (doParent == null) return;
+
+            foreach (object child in LogicalTreeHelper.GetChildren(doParent))
+            {
+                GetLogicalElements(child, logicalElements);
             }
         }
 
