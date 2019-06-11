@@ -9,1422 +9,1422 @@
         KeyDown="Window_KeyDown">
     <Grid HorizontalAlignment="Center">
 
-        <Canvas Margin="-550,0,0,0">
+        <Canvas Name="MainCanvas" Margin="-550,0,0,0">
             <Button Name="Hydrogen"                 Background="LawnGreen"              Click="Element_Click" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Hydrogen1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Hydrogen2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Hydrogen3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Helium"                   Background="CornflowerBlue"              Click="Element_Click" HorizontalAlignment="Left" Margin="1030,10,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Helium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Helium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Helium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Lithium"                  Background="Orange"                 Click="Element_Click" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lithium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lithium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lithium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Beryllium"                Background="Yellow"            Click="Element_Click" HorizontalAlignment="Left" Margin="70,70,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Beryllium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Beryllium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Beryllium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Boron"                    Background="LightGreen"            Click="Element_Click" HorizontalAlignment="Left" Margin="730,70,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Boron1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Boron2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Boron3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Carbon"                   Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="790,70,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Carbon1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Carbon2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Carbon3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Nitrogen"                 Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="850,70,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Nitrogen1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Nitrogen2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Nitrogen3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Oxygen"                   Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="910,70,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Oxygen1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Oxygen2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Oxygen3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
-            <Button Name="Flourine"                 Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="970,70,0,0" VerticalAlignment="Top" Width="60" Height="60">
+            <Button Name="Fluorine"                 Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="970,70,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Fluorine1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Fluorine2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Fluorine3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Neon"                     Background="CornflowerBlue"              Click="Element_Click" HorizontalAlignment="Left" Margin="1030,70,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Neon1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Neon2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Neon3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Sodium"                   Background="Orange"             Click="Element_Click" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Sodium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Sodium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Sodium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Magnesium"                Background="Yellow"             Click="Element_Click" HorizontalAlignment="Left" Margin="70,130,0,0" VerticalAlignment="Top" Width="60" Height="60" FontSize="10">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Magnesium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Magnesium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Magnesium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Aluminium"                Background="LightBlue"             Click="Element_Click" HorizontalAlignment="Left" Margin="730,130,0,0" VerticalAlignment="Top" Width="60" Height="60" FontSize="10">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Aluminium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Aluminium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Aluminium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Silicon"                  Background="LightGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="790,130,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Silicon1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Silicon2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Silicon3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Phosphorus"               Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="850,130,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Phosphorus1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Phosphorus2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Phosphorus3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Sulfur"                   Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="910,130,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Sulfur1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Sulfur2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Sulfur3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Chlorine"                 Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="970,130,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Chlorine1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Chlorine2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Chlorine3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Argon"                    Background="CornflowerBlue"              Click="Element_Click" HorizontalAlignment="Left" Margin="1030,130,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Argon1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Argon2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Argon3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Potassium"                Background="Orange"             Click="Element_Click" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Potassium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Potassium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Potassium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Calcium"                  Background="Yellow"             Click="Element_Click" HorizontalAlignment="Left" Margin="70,190,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Calcium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Calcium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Calcium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Scandium"                 Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="130,190,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Scandium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Scandium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Scandium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Titanium"                 Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="190,190,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Titanium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Titanium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Titanium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Vanadium"                 Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="250,190,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Vanadium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Vanadium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Vanadium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Chromium"                 Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="310,190,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Chromium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Chromium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Chromium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Manganese"                Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="370,190,0,0" VerticalAlignment="Top" Width="60" Height="60" FontSize="10">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Manganese1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Manganese2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Manganese3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Iron"                     Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="430,190,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Iron1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Iron2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Iron3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Nickel"                   Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="550,190,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Nickel1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Nickel2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Nickel3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Cobalt"                   Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="490,190,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Cobalt1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Cobalt2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Cobalt3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Copper"                   Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="610,190,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Copper1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Copper2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Copper3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Zinc"                     Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="670,190,0,0" VerticalAlignment="Top" Width="60"     Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Zinc1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Zinc2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Zinc3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Gallium"                  Background="LightBlue"             Click="Element_Click" HorizontalAlignment="Left" Margin="730,190,0,0" VerticalAlignment="Top" Width="60"     Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Gallium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Gallium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Gallium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Germanium"                Background="LightGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="790,190,0,0" VerticalAlignment="Top" Width="60"    Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Germanium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Germanium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Germanium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Arsenic"                  Background="LightGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="850,190,0,0" VerticalAlignment="Top" Width="60"    Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Arsenic1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Arsenic2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Arsenic3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Selenium"                 Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="910,190,0,0" VerticalAlignment="Top" Width="60"     Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Selenium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Selenium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Selenium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Bromine"                  Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="970,190,0,0" VerticalAlignment="Top" Width="60"     Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Bromine1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Bromine2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Bromine3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Krypton"                  Background="CornflowerBlue"        Click="Element_Click" HorizontalAlignment="Left" Margin="1030,190,0,0" VerticalAlignment="Top" Width="60"    Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Krypton1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Krypton2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Krypton3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Rubidium"                 Background="Orange"             Click="Element_Click" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="60"         Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Rubidium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Rubidium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Rubidium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Strontium"                Background="Yellow"             Click="Element_Click" HorizontalAlignment="Left" Margin="70,250,0,0" VerticalAlignment="Top" Width="60"         Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Strontium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Strontium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Strontium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Yttrium"                  Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="130,250,0,0" VerticalAlignment="Top" Width="60"     Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Yttrium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Yttrium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Yttrium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Zirconium"                Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="190,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Zirconium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Zirconium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Zirconium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Niobium"                  Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="250,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Niobium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Niobium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Niobium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Molybdenum"               Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="310,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Molybdenum1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Molybdenum2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Molybdenum3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Technetium"               Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="370,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Technetium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Technetium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Technetium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Ruthenium"                Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="430,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Ruthenium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Ruthenium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Ruthenium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Rhodium"                  Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="490,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Rhodium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Rhodium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Rhodium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Palladium"                Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="550,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Palladium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Palladium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Palladium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Silver"                   Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="610,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Silver1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Silver2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Silver3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Cadmium"                  Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="670,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Cadmium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Cadmium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Cadmium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Indium"                   Background="LightBlue"             Click="Element_Click" HorizontalAlignment="Left" Margin="730,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Indium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Indium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Indium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Tin"                      Background="LightBlue"             Click="Element_Click" HorizontalAlignment="Left" Margin="790,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tin1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tin2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tin3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Antimony"                 Background="LightGreen"            Click="Element_Click" HorizontalAlignment="Left" Margin="850,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Antimony1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Antimony2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Antimony3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Tellurium"                Background="LightGreen"            Click="Element_Click" HorizontalAlignment="Left" Margin="910,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tellurium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tellurium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tellurium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Iodine"                   Background="LawnGreen"             Click="Element_Click" HorizontalAlignment="Left" Margin="970,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Iodine1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Iodine2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Iodine3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Xenon"                    Background="CornflowerBlue"        Click="Element_Click" HorizontalAlignment="Left" Margin="1030,250,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Xenon1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Xenon2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Xenon3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Cesium"                   Background="Orange"                Click="Element_Click" HorizontalAlignment="Left" Margin="10,310,0,0" VerticalAlignment="Top" Width="60"  Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Cesium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Cesium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Cesium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Barium"                   Background="Yellow"                Click="Element_Click" HorizontalAlignment="Left" Margin="70,310,0,0" VerticalAlignment="Top" Width="60"  Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Barium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Barium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Barium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Hafnium"                  Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="190,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Hafnium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Hafnium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Hafnium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Tantalum"                 Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="250,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tantalum1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tantalum2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tantalum3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Tungsten"                 Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="310,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tungsten1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tungsten2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tungsten3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Rhenium"                  Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="370,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Rhenium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Rhenium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Rhenium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Osmium"                   Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="430,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Osmium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Osmium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Osmium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Iridium"                  Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="490,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Iridium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Iridium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Iridium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Platinum"                 Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="550,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Platinum1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Platinum2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Platinum3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Gold"                     Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="610,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Gold1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Gold2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Gold3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Mercury"                  Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="670,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Mercury1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Mercury2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Mercury3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Thallium"                 Background="LightBlue"             Click="Element_Click" HorizontalAlignment="Left" Margin="730,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Thallium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Thallium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Thallium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Lead"                     Background="LightBlue"             Click="Element_Click" HorizontalAlignment="Left" Margin="790,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lead1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lead2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lead3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Bismuth"                  Background="LightBlue"             Click="Element_Click" HorizontalAlignment="Left" Margin="850,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Bismuth1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Bismuth2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Bismuth3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Polonium"                 Background="LightBlue"             Click="Element_Click" HorizontalAlignment="Left" Margin="910,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Polonium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Polonium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Polonium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Astatine"                 Background="LightGreen"            Click="Element_Click" HorizontalAlignment="Left" Margin="970,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Astatine1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Astatine2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Astatine3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Radon"                    Background="CornflowerBlue"       Click="Element_Click" HorizontalAlignment="Left" Margin="1030,310,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Radon1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Radon2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Radon3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Francium"                 Background="Orange"                 Click="Element_Click" HorizontalAlignment="Left" Margin="10,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Francium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Francium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Francium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Radium"                   Background="Yellow"                 Click="Element_Click" HorizontalAlignment="Left" Margin="70,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Radium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Radium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Radium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Rutherfordium"            Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="190,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Rutherfordium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Rutherfordium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Rutherfordium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Dubnium"                  Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="250,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Dubnium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Dubnium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Dubnium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Seaborgium"               Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="310,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Seaborgium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Seaborgium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Seaborgium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Bohrium"                  Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="370,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Bohrium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Bohrium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Bohrium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Hassium"                  Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="430,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Hassium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Hassium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Hassium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Meitnerium"               Background="LightGray"             Click="Element_Click" HorizontalAlignment="Left" Margin="490,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Meitnerium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Meitnerium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Meitnerium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Darmstadtium"             Background="LightGray"             Click="Element_Click" HorizontalAlignment="Left" Margin="550,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Darmstadtium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Darmstadtium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Darmstadtium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Roentgenium"              Background="LightGray"             Click="Element_Click" HorizontalAlignment="Left" Margin="610,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Roentgenium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Roentgenium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Roentgenium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Copernicium"              Background="RosyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="670,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Copernicium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Copernicium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Copernicium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Nihonium"                 Background="LightGray"             Click="Element_Click" HorizontalAlignment="Left" Margin="730,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Nihonium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Nihonium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Nihonium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Flerovium"                Background="LightBlue"             Click="Element_Click" HorizontalAlignment="Left" Margin="790,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Flerovium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Flerovium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Flerovium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Moscovium"                Background="LightGray"             Click="Element_Click" HorizontalAlignment="Left" Margin="850,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Moscovium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Moscovium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Moscovium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Livermorium"              Background="LightGray"             Click="Element_Click" HorizontalAlignment="Left" Margin="910,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Livermorium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Livermorium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Livermorium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Tennessine"               Background="LightGray"             Click="Element_Click" HorizontalAlignment="Left" Margin="970,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tennessine1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tennessine2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Tennessine3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Oganesson"                Background="LightGray"              Click="Element_Click" HorizontalAlignment="Left" Margin="1030,370,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Oganesson1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Oganesson2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Oganesson3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
                                                     
             <Button Name="Lanthanum"                Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="130,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lanthanum1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lanthanum2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lanthanum3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Cerium"                   Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="190,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Cerium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Cerium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Cerium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Praseodymium"             Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="250,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Praseodymium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Praseodymium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Praseodymium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Neodymium"                Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="310,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Neodymium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Neodymium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Neodymium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Promethium"               Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="370,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Promethium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Promethium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Promethium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Samarium"                 Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="430,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Samarium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Samarium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Samarium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Europium"                 Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="490,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Europium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Europium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Europium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Gadolinium"               Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="550,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Gadolinium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Gadolinium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Gadolinium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Terbium"                  Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="610,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Terbium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Terbium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Terbium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Dysprosium"               Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="670,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Dysprosium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Dysprosium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Dysprosium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Holmium"                  Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="730,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Holmium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Holmium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Holmium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Erbium"                   Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="790,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Erbium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Erbium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Erbium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Thulium"                  Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="850,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Thulium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Thulium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Thulium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Ytterbium"                Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="910,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Ytterbium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Ytterbium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Ytterbium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Lutetium"                 Background="SandyBrown"             Click="Element_Click" HorizontalAlignment="Left" Margin="970,490,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lutetium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lutetium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lutetium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Actinium"                 Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="130,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Actinium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Actinium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Actinium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Thorium"                  Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="190,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Thorium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Thorium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Thorium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Protactinium"             Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="250,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Protactinium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Protactinium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Protactinium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Uranium"                  Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="310,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Uranium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Uranium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Uranium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Neptunium"                Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="370,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Neptunium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Neptunium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Neptunium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Plutonium"                Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="430,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Plutonium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Plutonium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Plutonium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Americium"                Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="490,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Americium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Americium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Americium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Curium"                   Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="550,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Curium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Curium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Curium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Berkelium"                Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="610,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Berkelium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Berkelium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Berkelium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Californium"              Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="670,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Californium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Californium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Californium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Einsteinium"              Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="730,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Einsteinium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Einsteinium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Einsteinium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Fermium"                  Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="790,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Fermium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Fermium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Fermium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Mendelevium"              Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="850,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Mendelevium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Mendelevium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Mendelevium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Nobelium"                 Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="910,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Nobelium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Nobelium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Nobelium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
             <Button Name="Lawrencium"               Background="PaleVioletRed"             Click="Element_Click" HorizontalAlignment="Left" Margin="970,550,0,0" VerticalAlignment="Top" Width="60" Height="60">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="H" FontSize="30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="1" Text="atomic number" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-                    <TextBlock Grid.Row="2" Text="atomic weight" FontSize="5" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lawrencium1" Grid.Row="0" Tag= "SymbolButton" Text= "-" FontSize= "25"  TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lawrencium2" Grid.Row="1" Tag= "AtomicNumberButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                    <TextBlock Name= "Lawrencium3" Grid.Row="2" Tag= "AtomicMassButton" Text= "-" FontSize= "10" VerticalAlignment="Top" TextWrapping="Wrap" HorizontalAlignment="Center"/>
                 </Grid>
             </Button>
         </Canvas>

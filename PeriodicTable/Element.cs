@@ -37,6 +37,10 @@ namespace PeriodicTable
         public int numberOfShells;
         public int numberOfValence;
 
+        public Element()
+        {
+
+        }
         public Element
            (int AtomicNumber,
             String ElementName,

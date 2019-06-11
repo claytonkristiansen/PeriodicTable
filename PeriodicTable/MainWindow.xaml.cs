@@ -113,9 +113,50 @@ namespace PeriodicTable
             String localDirectory = Directory.GetCurrentDirectory();
             localDirectory = localDirectory.Substring(0, localDirectory.Length - 24);
             Elements = ParseElementscsv(localDirectory + "\\Assets\\PeriodicTableOfElements.csv");
-            int i = 0;
+            foreach(object o1 in LogicalTreeHelper.GetChildren(MainCanvas))
+            {
+                Element thisElement = new Element();
+                if (o1.GetType().Name == "Button")
+                {
+                    Button button = o1 as Button;
+                    for (int i = 0; i < elements.Count; i++)
+                    {
+                        if (elements.ElementAt(i).elementName.Equals(button.Name))
+                        {
+                            thisElement = elements.ElementAt(i);
+                        }
+                    }
 
+                    foreach (object o in LogicalTreeHelper.GetChildren(o1 as System.Windows.DependencyObject))
+                    {
+                        Type type = o.GetType();
+                        //if(o.GetType() is Grid)
+                        //{
+                        foreach (object o2 in LogicalTreeHelper.GetChildren(o as System.Windows.DependencyObject))
+                        {
+                            if (o2.GetType().Name == "TextBlock")
+                            {
+                                TextBlock textBlock = o2 as TextBlock;
+                                if (textBlock.Tag as String == "SymbolButton")
+                                {
+                                    textBlock.Text = thisElement.symbol;
+                                }
+                                if (textBlock.Tag as String == "AtomicNumberButton")
+                                {
+                                    textBlock.Text = thisElement.atomicNumber.ToString();
+                                }
+                                if (textBlock.Tag as String == "AtomicMassButton")
+                                {
+                                    textBlock.Text = thisElement.atomicMass.ToString();
+                                }
+                            }
+                        }
 
+                    }
+                }
+
+                
+            }
         }
 
 
